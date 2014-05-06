@@ -1,0 +1,8 @@
+D:\GitHub2\OverTwiceDemeritA\OverTwiceDemeritA\obj\Debug\OverTwiceDemeritA.csprojResolveAssemblyReference.cache
+D:\GitHub2\OverTwiceDemeritA\OverTwiceDemeritA\obj\Debug\OverTwiceDemeritA.Printer.resources
+D:\GitHub2\OverTwiceDemeritA\OverTwiceDemeritA\obj\Debug\OverTwiceDemeritA.Properties.Resources.resources
+D:\GitHub2\OverTwiceDemeritA\OverTwiceDemeritA\obj\Debug\OverTwiceDemeritA.csproj.GenerateResource.Cache
+D:\GitHub2\OverTwiceDemeritA\OverTwiceDemeritA\bin\Debug\OverTwiceDemeritA.dll
+D:\GitHub2\OverTwiceDemeritA\OverTwiceDemeritA\bin\Debug\OverTwiceDemeritA.pdb
+D:\GitHub2\OverTwiceDemeritA\OverTwiceDemeritA\obj\Debug\OverTwiceDemeritA.dll
+D:\GitHub2\OverTwiceDemeritA\OverTwiceDemeritA\obj\Debug\OverTwiceDemeritA.pdb
