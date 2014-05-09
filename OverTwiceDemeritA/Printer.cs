@@ -19,7 +19,7 @@ namespace OverTwiceDemeritA
 {
     public partial class Printer : BaseForm
     {
-        int _SchoolYear;
+        int _SchoolYear,_StandardValue;
         Dictionary<string, ClassRecord> _ClassCatch;
         string _SchoolName;
         string _ReportName;
@@ -171,7 +171,7 @@ namespace OverTwiceDemeritA
             Dictionary<string, StudentObj> NewStudentDic = new Dictionary<string, StudentObj>();
             foreach (StudentObj obj in StudentDic.Values)
             {
-                if (obj.DA >= 2)
+                if (obj.DA >= _StandardValue)
                     NewStudentDic.Add(obj.Id, obj);
             }
 
@@ -255,6 +255,8 @@ namespace OverTwiceDemeritA
             {
                 EnableForm(false);
                 _SchoolYear = int.Parse(cboYear.Text);
+                _StandardValue = (int)numericUpDown1.Value;
+                _ReportName = "犯過累計滿" + _StandardValue + "次大過學生名單";
                 _BW.RunWorkerAsync();
             }
         }
